@@ -17,9 +17,9 @@
 
 ## Sobre o desafio
 
-| Letra       | Novo Valor |
-| ----------- | -----------|
-| a           | ai         |
+|  a  |  e  |  i  |  o  |  u  |
+|-----|-----|-----|-----|-----|
+|ai   |enter|imes |ober |ufat |
 
 
 ## Requisitos
