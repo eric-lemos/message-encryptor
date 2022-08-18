@@ -16,9 +16,12 @@
 </div>
 
 ## Descrição
+A encriptação de dados é o processo de codificação de mensagens ou arquivos. Este processo é responsável por gerar um código que permite que apenas aqueles que possuem as chaves corretas tenham acesso àquelas informações.
 
+O objetivo da encriptação é proteger os dados digitais durante o seu envio. Os algoritmos da criptografia fornecem iniciativas de segurança que permitem que seja verificada a origem da mensagem e a integridade da mesma, sendo uma forma de comprovar que não houve alteração em seu conteúdo
 
-Chaves de criptografia utilizadas:
+Este projeto é uma iniciativa de estudo promovida pela Oracle e Alura pelo programa ONE e o desafio proposto foi compor um encriptador com a seguinte lógica para compor a chave de criptografia/descriptografia:
+
 |  a  |  e  |  i  |  o  |  u  |
 |-----|-----|-----|-----|-----|
 |ai   |enter|imes |ober |ufat |
