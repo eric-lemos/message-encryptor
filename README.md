@@ -1,5 +1,5 @@
 <p align="center">
-  [demo.png](https://eric-lemos.github.io/message-encryptor/)
+  ![demo.png](https://eric-lemos.github.io/message-encryptor/)
 </p>
 
 <p align="center">Envie mensagens em segredo que só você e seu amigo vão conseguir entender! 🚀</p>
