@@ -17,6 +17,11 @@
 
 ## Sobre o desafio
 
+| Letra        | Novo Valor
+------------------------------
+| a            | ai
+
+
 ## Requisitos
 - Deve funcionar apenas com letras minúsculas
 - Não devem ser utilizados letras com acentos nem caracteres especiais
