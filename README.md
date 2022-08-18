@@ -1,10 +1,10 @@
-<p align="center">
+<!-- <p align="center">
   <a href="#">
-<!--     <img src="demo.gif" height="150" width="175" alt="" /> -->
-    ![](demo.gif)
+    <img src="demo.gif" height="150" width="175" alt="" />
   </a>
-</p>
+</p> -->
 
+![](demo.gif)
 <p align="center">Envie mensagens em segredo que só você e seu amigo vão conseguir entender! 🚀</p>
 
 <div align="center">
