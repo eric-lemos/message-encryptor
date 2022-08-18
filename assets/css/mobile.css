@@ -1,0 +1,95 @@
+/* Small devices */
+@media screen and (max-width: 740px) {
+    .logo {
+        text-align: center;
+        margin: 2.5em 0 0 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .btn,
+    .main,
+    .aside,
+    .main .input,
+    .main .buttons {
+        width: 100%;
+    }
+
+    .main textarea {
+        min-height: 250px;
+    }
+
+    .main .buttons {
+        margin: 1rem auto 0;
+    }
+
+    .main .buttons button {
+        margin: 0.2rem 0;
+    }
+
+    .warning {
+        margin: 0 0 0.5rem 2.3rem;
+        font-size: 14px;
+    }
+
+    .flex-center {
+        display: block;
+    }
+
+    .aside .aside-box {
+        position: static;
+        min-height: 200px;
+        padding: 16px 32px 32px;
+    }
+
+    #not-found img {
+        visibility: hidden;
+        display: none;
+    }
+
+    footer .footer {
+        background-image: none;
+        background: #d8dfe8;
+    }
+
+    footer .col {
+        flex: auto;
+    }
+
+    footer .footer p,
+    footer .footer a,
+    footer .footer a:visited,
+    footer .footer a:active {
+        font-size: 14px;
+    }
+}
+
+/* Medium devices */
+@media screen and (min-width: 768px) and (max-width: 1368px) {
+    .main {
+        width: 70%;
+    }
+
+    .aside {
+        width: 30%;
+    }
+
+    .aside-box {
+        padding: 0 1.5rem;
+        top: -4rem;
+    }
+
+    .main .input,
+    .main .buttons {
+        width: 65%;
+    }
+
+    .main .buttons button {
+        margin: 0 0.1rem;
+    }
+
+    .warning {
+        font-size: 13px;
+        margin: 0 0 1em 4em;
+    }
+}

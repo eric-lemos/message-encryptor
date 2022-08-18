@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml" />
+        <title></title>
+
+        <link rel="stylesheet" href="assets/css/reset.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/mobile.css" />
+    </head>
+    <body onload="appInit()">
+        <header class="container">
+            <div class="row">
+                <div class="col logo">
+                    <a href="index.html">
+                        <img src="assets/img/logo.svg" alt="Logo Alura" />
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="container">
+                <div class="row">
+                    <div class="col main text-center">
+                        <div class="input">
+                            <textarea placeholder="Digite seu texto" id="input"></textarea>
+                        </div>
+                        <div class="buttons">
+                            <p class="warning text-left">Apenas letras minúsculas e sem acento.</p>
+                            <button class="btn" id="encrypt">Criptografar</button>
+                            <button class="btn" id="decrypt">Descriptografar</button>
+                        </div>
+                    </div>
+                    <div class="col aside text-center">
+                        <div id="not-found" class="aside-box flex-center show">
+                            <div>
+                                <img class="img-responsive" src="assets/img/no-text.svg" />
+                                <div class="info">
+                                    <h1 class="bold">Nenhuma mensagem encontrada</h1>
+                                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="txt-found" class="aside-box hide">
+                            <div class="output">
+                                <textarea id="output" disabled></textarea>
+                            </div>
+                            <div class="copy">
+                                <button id="copy" class="btn">Copiar</button>
+                            </div>
+                        </div>
+
+                        <div id="response" class="hide">
+                            <div class="container">
+                                <p class="alert">Mensagem copiada para a área de transferência.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="container footer">
+                <div class="row footer-info">
+                    <div class="col">
+                        <p>
+                            2022 &copy; ONE+Alura
+                            <a href="https://bit.ly/3SQPdIc" target="_blank">Challenge #1</a>
+                            by
+                            <a target="_blank" href="https://linktr.ee/eric_lemos">Eric Lemos</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>

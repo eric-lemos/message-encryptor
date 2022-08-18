@@ -1,0 +1,268 @@
+/* Defaults */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #e5e5e5;
+    line-height: 24px;
+    color: #495057;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Grid */
+.container {
+    display: grid;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 0 0 auto;
+    padding: 0.75rem 1.5rem;
+}
+
+.break {
+    width: 100%;
+}
+
+/* Common */
+.hide {
+    display: none !important;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.img-responsive {
+    width: calc(100% - 10px);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.btn {
+    width: 44%;
+    height: 67px;
+    border: none;
+    font-size: 16px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+/* Header */
+.logo {
+    margin: 40px 0 0 85px;
+    padding: 0;
+}
+
+/* Main */
+.main {
+    width: 75%;
+    margin-top: 2rem;
+}
+
+.main .input {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main textarea {
+    width: 100%;
+    min-height: 450px;
+    border: none;
+    resize: none;
+    background: #e5e5e5;
+}
+
+.main textarea,
+.main textarea::placeholder {
+    font-family: "Inter", sans-serif;
+    line-height: 36px;
+    color: #0a3871;
+    font-size: 32px;
+}
+
+.main textarea:focus {
+    box-shadow: 0 0 0 0;
+    outline: none;
+}
+
+.warning {
+    font-size: 16px;
+    margin: 0 0 1em 2.5em;
+    position: relative;
+}
+
+.warning::before {
+    content: "";
+    background: url("../img/warning.svg");
+    background-size: cover;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 2px;
+    left: -25px;
+}
+
+.main .buttons {
+    width: 50%;
+    margin: 4rem auto 0;
+}
+
+.main .buttons button {
+    margin: 0.2rem 0.5em;
+}
+
+.main .buttons #encrypt {
+    background: #0a3871;
+    color: #fff;
+    transition: 1000ms;
+}
+
+.main .buttons #encrypt:hover {
+    background: #0d488f;
+}
+
+.main .buttons #decrypt {
+    border: 1px solid #0a3871;
+    background: #d8dfe8;
+    color: #0a3871;
+    transition: 1000ms;
+}
+
+.main .buttons #decrypt:hover {
+    background: transparent;
+}
+
+/* Aside */
+.aside {
+    width: 25%;
+    position: relative;
+}
+
+.aside-box {
+    width: 100%;
+    min-height: 750px;
+    box-shadow: 0px 24px 32px -8px rgba(0 0 0 / 8%);
+    background: #fff;
+    border-radius: 32px;
+    padding: 0 3.5rem;
+    position: absolute;
+    right: 3rem;
+    top: -3rem;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+#not-found .info {
+    margin-top: 2rem;
+}
+
+#not-found .info h1 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #343a40;
+}
+
+#not-found .info p {
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+#txt-found textarea {
+    width: 100%;
+    resize: none;
+    margin: 2rem auto;
+    min-height: 550px;
+    width: 100%;
+    border: none;
+    background: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#txt-found .copy #copy {
+    border: 1px solid #0a3871;
+    background: transparent;
+    color: #0a3871;
+    transition: 1000ms;
+    width: 100%;
+}
+
+#txt-found .copy #copy:hover {
+    background: #d8dfe8;
+}
+
+/* Footer */
+footer .footer {
+    position: relative;
+    background-image: linear-gradient(to right, #e5e5e5, #d8dfe8, #d8dfe8, #d8dfe8, #d8dfe8, #e5e5e5);
+    width: 100%;
+    padding: 0;
+    top: 5rem;
+}
+
+footer .footer p,
+footer .footer a,
+footer .footer a:visited,
+footer .footer a:active {
+    color: #5b7ca5;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+footer .footer a:hover {
+    color: #0a3871;
+}
+
+footer .footer a {
+    font-weight: 600;
+}
+
+footer .footer-info {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#response {
+    background: #d8dfe8;
+    transform: translate(-50%, 0);
+    position: fixed;
+    left: 50%;
+    top: 1rem;
+}
+
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #b7c5d5;
+    border-radius: 0.25rem;
+    color: #0a3871;
+    opacity: 1;
+}
