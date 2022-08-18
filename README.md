@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="#">
-    <img src="assets/img/logo.svg" height="150" alt="Logo" />
+  <a href="https://eric-lemos.github.io/message-encryptor" target="_blank">
+    <img src="demo.png" width="100%" alt="Logo" />
   </a>
 </p>
 
