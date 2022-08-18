@@ -1,10 +1,7 @@
 <p align="center">
-  <a target="_blank" href="https://eric-lemos.github.io/message-encryptor">
     <img src="demo.png" width="100%" alt="Pré-visualização do resultado do projeto" />
-  </a>
+    <p>Envie mensagens em segredo que só você e seu amigo vão conseguir entender! 🚀</p>
 </p>
-
-<p align="center">Envie mensagens em segredo que só você e seu amigo vão conseguir entender! 🚀</p>
 
 <div align="center">
 
