@@ -18,7 +18,7 @@
 ## Sobre o desafio
 
 
-### Chaves de Criptografia
+Chaves de criptografia utilizadas:
 |  a  |  e  |  i  |  o  |  u  |
 |-----|-----|-----|-----|-----|
 |ai   |enter|imes |ober |ufat |
