@@ -1,3 +1,5 @@
+![Alt text](demo.png?raw=true "Title")
+
 <p align="center">
     <img src="demo.png" width="100%" alt="Pré-visualização do resultado do projeto" />
     <p>Envie mensagens em segredo que só você e seu amigo vão conseguir entender! 🚀</p>
