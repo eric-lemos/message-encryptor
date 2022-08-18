@@ -1,0 +1,4 @@
+*.js linguist-language=Javascript
+
+assets/css/* linguist-generated
+assets/css/inter.css linguist-vendored=true
