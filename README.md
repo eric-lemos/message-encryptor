@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img src="assets/img/logo.svg" height="150" alt="Logo" />
+    <img src="demo.png" height="150" alt="Logo" />
   </a>
 </p>
 
