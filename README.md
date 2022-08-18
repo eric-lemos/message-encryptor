@@ -1,4 +1,4 @@
-![](demo.png?raw=true "Testando")
+![Prévia do Site](demo.png?raw=true)
 <p align="center">Envie mensagens em segredo que só você e seu amigo vão conseguir entender! 🚀</p>
 
 <div align="center">
