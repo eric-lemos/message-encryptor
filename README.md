@@ -1,1 +1,1 @@
-# message-encryptor
+# Message encryptor/decryptor
