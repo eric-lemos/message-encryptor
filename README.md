@@ -1,7 +1,7 @@
 
 
 <p align="center">
-    ![Pré-visualização do resultado do projeto](demo.png?raw=true)
+    ![Pré-visualização do resultado do projeto](demo.png?raw=true "")
     <p>Envie mensagens em segredo que só você e seu amigo vão conseguir entender! 🚀</p>
 </p>
 
