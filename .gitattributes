@@ -3,5 +3,6 @@ assets/css/inter.css linguist-generated
 assets/css/reset.css linguist-generated
 assets/css/inter.css linguist-generated
 
+assets/css/style.css linguist-language=CSS
+assets/css/mobile.css linguist-language=CSS
 *.js linguist-language=Javascript
-*.css linguist-language=CSS
