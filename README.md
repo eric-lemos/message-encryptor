@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://eric-lemos.github.io/message-encryptor" target="_blank">
+  <a target="_blank" href="https://eric-lemos.github.io/message-encryptor">
     <img src="demo.png" width="100%" alt="Logo" />
   </a>
 </p>
