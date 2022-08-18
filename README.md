@@ -1,6 +1,7 @@
 <p align="center">
   <a href="#">
-    <img src="demo.gif" height="150" width="175" alt="" />
+<!--     <img src="demo.gif" height="150" width="175" alt="" /> -->
+    ![](demo.gif)
   </a>
 </p>
 
