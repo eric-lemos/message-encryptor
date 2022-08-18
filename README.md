@@ -17,6 +17,7 @@
 
 ## Sobre o desafio
 
-## Licença
-
-MIT © [Eric Lemos](https://github.com/eric-lemos)
+## Requisitos
+- Deve funcionar apenas com letras minúsculas
+- Não devem ser utilizados letras com acentos nem caracteres especiais
+- Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
