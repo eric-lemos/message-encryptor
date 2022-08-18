@@ -1,8 +1,3 @@
-index.html linguist-generated
-assets/css/inter.css linguist-generated
-assets/css/reset.css linguist-generated
-assets/css/inter.css linguist-generated
-assets/css/mobile.css linguist-generated
-
-assets/css/style.css linguist-language=CSS
 *.js linguist-language=Javascript
+*.html linguist-generated
+*.css linguist-generated
