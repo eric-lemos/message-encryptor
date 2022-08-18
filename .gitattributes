@@ -1,5 +1,7 @@
-*.js linguist-language=Javascript
-
 index.html linguist-generated
-assets/css/* linguist-generated
-assets/css/inter.css linguist-vendored=true
+assets/css/inter.css linguist-generated
+assets/css/reset.css linguist-generated
+assets/css/inter.css linguist-generated
+
+*.js linguist-language=Javascript
+*.css linguist-language=CSS
