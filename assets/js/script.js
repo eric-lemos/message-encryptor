@@ -28,7 +28,7 @@ function encrypt(input) {
     input = input
         .toLowerCase()
         .normalize("NFD")
-        .replace(/[^a-z]/g, "");
+        .replace(/[^a-z\d ]/g, "");
     let output = "";
     let letter = "";
 
@@ -49,7 +49,7 @@ function decrypt(input) {
     input = input
         .toLowerCase()
         .normalize("NFD")
-        .replace(/[^a-z]/g, "");
+        .replace(/[^a-z\d ]/g, "");
     let output = "";
     let letter = "";
 
