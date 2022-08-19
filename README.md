@@ -1,9 +1,4 @@
-<p align="center">
-  <a href="https://eric-lemos.github.io/message-encryptor" target="_blank">
-    <img src="demo.png" width="100%" alt="Logo" />
-  </a>
-</p>
-
+![](demo.png?raw=true)
 <p align="center">Envie mensagens em segredo que só você e seu amigo vão conseguir entender! 🚀</p>
 
 <div align="center">
@@ -20,7 +15,7 @@ A encriptação de dados é o processo de codificação de mensagens ou arquivos
 
 O objetivo da encriptação é proteger os dados digitais durante o seu envio. Os algoritmos da criptografia fornecem iniciativas de segurança que permitem que seja verificada a origem da mensagem e a integridade da mesma, sendo uma forma de comprovar que não houve alteração em seu conteúdo
 
-Este projeto é uma iniciativa de estudo promovida pela Oracle e Alura pelo programa ONE e o desafio proposto foi compor um encriptador com a seguinte lógica para compor a chave de criptografia/descriptografia:
+Este projeto é uma iniciativa de estudo promovida pela Oracle e Alura pelo programa ONE e o desafio proposto foi compor um encriptador com a seguinte lógica para a chave de criptografia/descriptografia:
 
 |  a  |  e  |  i  |  o  |  u  |
 |-----|-----|-----|-----|-----|
@@ -28,6 +23,6 @@ Este projeto é uma iniciativa de estudo promovida pela Oracle e Alura pelo prog
 
 
 ## Requisitos
-- Deve funcionar apenas com letras minúsculas
-- Não devem ser utilizados letras com acentos nem caracteres especiais
+- Deve funcionar apenas com letras minúsculas;
+- Não devem ser utilizados letras com acentos nem caracteres especiais;
 - Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
