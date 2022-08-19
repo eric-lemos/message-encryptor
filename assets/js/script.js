@@ -25,8 +25,14 @@ let html = {
  * @return {string} encrypted text
  **/
 function encrypt(input) {
+    input = input
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[^a-z]/g, "");
     let output = "";
     let letter = "";
+
+    console.log(input);
 
     for (i in input) {
         letter = Object.keys(rules).filter((key) => (input[i] === key ? key : ""));
@@ -42,6 +48,10 @@ function encrypt(input) {
  * @return {string} decrypted text
  **/
 function decrypt(input) {
+    input = input
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[^a-z]/g, "");
     let output = "";
     let letter = "";
 
