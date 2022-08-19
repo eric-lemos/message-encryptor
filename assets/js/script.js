@@ -1,12 +1,12 @@
 /**
  * Key-Value of encryption rules
  **/
-let rules = { e: "enter", i: "imes", a: "ai", o: "ober", u: "ufat" };
+const rules = { e: "enter", i: "imes", a: "ai", o: "ober", u: "ufat" };
 
 /**
  * Key-Value of DOM Elements
  **/
-let html = {
+const html = {
     footer_icon: document.getElementById("footer-icon"),
     footer_info: document.getElementById("footer-info"),
     not_found: document.getElementById("not-found"),
@@ -31,8 +31,6 @@ function encrypt(input) {
         .replace(/[^a-z]/g, "");
     let output = "";
     let letter = "";
-
-    console.log(input);
 
     for (i in input) {
         letter = Object.keys(rules).filter((key) => (input[i] === key ? key : ""));
@@ -129,7 +127,7 @@ function copyOutput() {
     html.copy.addEventListener("click", () => {
         navigator.clipboard.writeText(html.output.value).then(() => {
             html.input.focus(html.input.select());
-            setTimeout(() => show(html.response), 300);
+            setTimeout(() => show(html.response), 0);
             setTimeout(() => hide(html.response), 3000);
         });
     });
